@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+    <title>失眠的涵白 - Vup</title>
+    <link rel="shortcut icon" href="./favicon.png">
+    <style>
+      @font-face {
+        font-family: Unicons;
+        src: url(fonts/Unicons.woff2) format("woff2"), url(fonts/Unicons.woff) format("woff");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block
+      }
+
+      @font-face {
+        font-family: Custom;
+        src: url(fonts/Custom.woff2) format("woff2"), url(fonts/Custom.woff) format("woff");
+      }
+
+      .img-mask.mask-1 img {
+        -webkit-mask-image: url(img/blob.svg) !important;
+        mask-image: url(img/blob.svg) !important;
+      }
+
+      .img-mask.mask-2 img {
+        -webkit-mask-image: url(img/hex.svg) !important;
+        mask-image: url(img/hex.svg) !important;
+      }
+
+      .img-mask.mask-3 img {
+        -webkit-mask-image: url(img/blob2.svg) !important;
+        mask-image: url(img/blob2.svg) !important;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/user-style.css">
+  </head>
+
+  <body>
+
+    <body>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="失眠的涵白 - BiliBili虚拟Up主" />
+      <meta name="keywords" content="B站,BiliBili,BILIBILI,bilibili,Up主,up,up主,Vup,vup,涵白,失眠的涵白,虚拟主播" />
+      <link rel="shortcut icon" href="./favicon.png" />
+      <link rel="stylesheet" href="css/plugins.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/purple.css" />
+      <nav id="sticky-navbar" class="navbar navbar-expand-lg classic transparent navbar-light navbar-clone fixed">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100"><a href="https://www.rostos.site"><img src="img/logo-small-svg.svg" alt="LOGO-1" class="logo-dark" /><img src="img/logo-small-white.svg" alt="LOGO-2" class="logo-light" /></a></div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">RostOS.site</h3><button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close btn-close-white"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="https://www.rostos.site" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="https://space.bilibili.com/386680967?spm_id_from=333.337.0.0" class="nav-link">B站主页</a></li>
+                <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">小窝守则</a>
+                  <div class="dropdown-menu dropdown-lg">
+                    <div class="dropdown-lg-content">
+                      <div>
+                        <h6 class="dropdown-header">BiliBili</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="./projects.html" class="dropdown-item">针对私聊</a></li>
+                          <li><a href="./projects2.html" class="dropdown-item">针对应援团</a></li>
+                        </ul>
+                      </div><!-- /.column -->
+                      <div>
+                        <h6 class="dropdown-header">QQ</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="./single-project.html" class="dropdown-item">针对私聊</a></li>
+                          <li><a href="./single-project2.html" class="dropdown-item">针对粉丝群</a></li>
+                        </ul>
+                      </div><!-- /.column -->
+                    </div><!-- /auto-column -->
+                  </div>
+                </li>
+              </ul><!-- /.navbar-nav -->
+            </div><!-- /.offcanvas-body -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block"><a href="" class="btn btn-sm btn-white rounded-pill">空降直播间</a></li>
+              <li class="nav-item d-lg-none"><button class="hamburger offcanvas-nav-btn"><span></span></button></li>
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-other -->
+        </div><!-- /.container -->
+      </nav>
+      <div class="content-wrapper">
+        <header class="wrapper bg-soft-primary">
+          <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-dark">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100"><a href="www.rostos.site"><img src="img/logo-small-svg.svg" alt="LOGO-1" class="logo-dark" /><img src="img/logo-small-white.svg" alt="LOGO-2" class="logo-light" /></a></div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">RostOS.site</h3><button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close btn-close-white"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="https://www.rostos.site" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="https://space.bilibili.com/386680967?spm_id_from=333.337.0.0" class="nav-link">B站主页</a></li>
+                <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">小窝守则</a>
+                  <div class="dropdown-menu dropdown-lg">
+                    <div class="dropdown-lg-content">
+                      <div>
+                        <h6 class="dropdown-header">BiliBili</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="./projects.html" class="dropdown-item">针对私聊</a></li>
+                          <li><a href="./projects2.html" class="dropdown-item">针对应援团</a></li>
+                        </ul>
+                      </div><!-- /.column -->
+                      <div>
+                        <h6 class="dropdown-header">QQ</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="./single-project.html" class="dropdown-item">针对私聊</a></li>
+                          <li><a href="./single-project2.html" class="dropdown-item">针对粉丝群</a></li>
+                        </ul>
+                      </div><!-- /.column -->
+                    </div><!-- /auto-column -->
+                  </div>
+                </li>
+              </ul><!-- /.navbar-nav -->
+            </div><!-- /.offcanvas-body -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block"><a href="" class="btn btn-sm btn-white rounded-pill">空降直播间</a></li>
+              <li class="nav-item d-lg-none"><button class="hamburger offcanvas-nav-btn"><span></span></button></li>
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-other -->
+        </div><!-- /.container -->
+      </nav>
+        </header><!-- /header -->
+        <section data-image-src="img/bg4.jpg" class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white">
+          <div id="iyil8h" class="container pt-18 pb-16 c18443">
+            <div class="row gx-0 gy-12 align-items-center">
+              <div data-cues="slideInDown" data-group="page-title" data-delay="600" class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start">
+                <h1 class="display-2 mb-5 text-white">失眠的涵白<br>B站 Vup
+                <p class="lead fs-lg lh-sm mb-7 pe-xl-10">开学啦！每天晚上7-8点直播嗷！</p>
+                <div data-cues="slideInDown" data-group="page-title-buttons" data-delay="900" class="d-flex justify-content-center justify-content-lg-start"><span><a href="https://space.bilibili.com/386680967?spm_id_from=333.337.0.0" class="btn btn-lg btn-white rounded-pill me-2">B站主页</a></span><span><a href="" class="btn btn-lg btn-outline-white rounded-pill">空降直播间</a></span></div>
+              </div>
+              <!--/column -->
+              <div class="col-lg-5 offset-lg-1">
+                <div data-margin="5" data-nav="true" data-dots="true" class="swiper-container dots-over shadow-lg">
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/head1.png" alt="" class="rounded" /></div>
+                      <div class="swiper-slide"><a href="./video/galaxybrainmeme.mp4" data-glightbox="" data-gallery="hero" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute c18654"><i class="icn-caret-right"></i></a><img src="./img/head-galaxy-brain-2.jpg" alt="" class="rounded" /></div>
+                      <div class="swiper-slide"><img src="./img/" alt="" class="rounded" /></div>
+                    </div>
+                    <!--/.swiper-wrapper -->
+                  </div>
+                  <!--/.swiper -->
+                </div><!-- /.swiper-container -->
+              </div><!-- /column -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </section><!-- /section -->
+        <section class="wrapper bg-light">
+          <div class="container py-14 py-md-17">
+            <div class="row text-center">
+              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">主要成分（</h2>
+                <h3 class="display-4 mb-10 px-xl-10">主播的各项程度</h3>
+              </div><!-- /column -->
+            </div><!-- /.row -->
+            <div class="position-relative mb-14 mb-md-17">
+              <div data-rellax-speed="1" id="iyqvn4" class="shape rounded-circle bg-soft-primary rellax w-16 h-16 c18882"></div>
+              <div data-rellax-speed="1" id="i1q3zx" class="shape bg-dot primary rellax w-16 h-17 c18891"></div>
+              <div class="row gx-md-5 gy-5 text-center">
+                <div class="col-md-6 col-xl-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-phone-volume"></i> </div>
+                      <h4>所见所得</h4>
+                      <p class="mb-2">可视化操作，所见即所得</p><a href="#" class="more hover link-primary">了解更多</a>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-shield-exclamation"></i> </div>
+                      <h4>网页模板</h4>
+                      <p class="mb-2">支持基于网页模板创建页面</p><a href="#" class="more hover link-primary">了解更多</a>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-laptop-cloud"></i> </div>
+                      <h4>网页模块</h4>
+                      <p class="mb-2">支持基于页面模块灵活组合</p><a href="#" class="more hover link-primary">了解更多</a>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-chart-line"></i> </div>
+                      <h4>源码导出</h4>
+                      <p class="mb-2">支持导出HTML5源码</p><a href="#" class="more hover link-primary">了解更多</a>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div><!-- /.position-relative -->
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-17">
+              <div class="col-lg-7">
+                <figure><img src="img/i11.png" alt="" class="w-auto" /></figure>
+              </div>
+              <!--/column -->
+              <div class="col-lg-5">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">服务特色</h2>
+                <h3 class="display-4 mb-7">基于页面模块的自由组合，可视化编辑制作网页更便捷</h3>
+                <div id="accordionExample" class="accordion accordion-wrapper">
+                  <div class="card plain accordion-item">
+                    <div id="headingOne" class="card-header"><button data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="accordion-button"> 专业设计 </button></div>
+                    <!--/.card-header -->
+                    <div id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample" class="accordion-collapse collapse show">
+                      <div class="card-body">
+                        <p>美观大方的外观设计，完美契合用户日常操作习惯，每一个按钮的放置都经过深思熟虑。</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
+                    <div id="headingTwo" class="card-header"><button data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed"> 支持响应式 </button></div>
+                    <!--/.card-header -->
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" class="accordion-collapse collapse">
+                      <div class="card-body">
+                        <p>一套代码即可支持桌面、平板以及手机端，为企业节省大量开发成本支出。</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
+                    <div id="headingThree" class="card-header"><button data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed"> 简洁易用 </button></div>
+                    <!--/.card-header -->
+                    <div id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample" class="accordion-collapse collapse">
+                      <div class="card-body">
+                        <p>可视化编辑，无需代码经验，无开发经验的用户也可以轻松上手，做网页很轻松！</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                </div>
+                <!--/.accordion -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-15">
+              <div class="col-lg-7 order-lg-2">
+                <figure><img src="img/i17.png" alt="" class="w-auto" /></figure>
+              </div>
+              <!--/column -->
+              <div class="col-lg-5">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">解决方案</h2>
+                <h3 class="display-4 mb-5">花更少的时间，办更多事情</h3>
+                <p class="mb-6">高效的页面产出，为开发者节约大量时间，让您更专注产品的业务</p>
+                <div class="row gy-3">
+                  <div class="col-xl-6">
+                    <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                      <li><span><i class="uil uil-check"></i></span><span>免排版基于模板创建页面</span></li>
+                      <li class="mt-3"><span><i class="uil uil-check"></i></span><span>基于页面模块创建页面</span></li>
+                    </ul>
+                  </div>
+                  <!--/column -->
+                  <div class="col-xl-6">
+                    <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                      <li><span><i class="uil uil-check"></i></span><span>点击模板即可开始创作页面</span></li>
+                      <li class="mt-3"><span><i class="uil uil-check"></i></span><span>多种页面模块自由组合</span></li>
+                    </ul>
+                  </div>
+                  <!--/column -->
+                </div>
+                <!--/.row -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div><!-- /.container -->
+        </section><!-- /section -->
+        <section class="wrapper bg-gray">
+          <div class="container py-14 pt-md-0 pb-md-16">
+            <div class="row mt-md-n50p mb-14 mb-md-7">
+              <div class="col-xl-10 mx-auto">
+                <div data-image-src="img/bg2.jpg" class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400">
+                  <div class="card-body p-9 p-xl-11">
+                    <div class="row align-items-center counter-wrapper gy-8 text-center text-white">
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">427518</h3>
+                        <p>生成页面</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">113472</h3>
+                        <p>客户好评</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">81844</h3>
+                        <p>页面分享</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">145230</h3>
+                        <p>累计用户</p>
+                      </div>
+                      <!--/column -->
+                    </div>
+                    <!--/.row -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.card -->
+              </div><!-- /column -->
+            </div><!-- /.row -->
+            <div class="row text-center">
+              <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">产品演示</h2>
+                <h3 class="display-4 mb-6">高效的页面产出，为开发者节约大量时间，让您更专注产品的业务</h3>
+              </div><!-- /column -->
+            </div><!-- /.row -->
+            <div class="position-relative">
+              <div data-rellax-speed="1" id="ieoum1" class="shape bg-dot primary rellax w-17 h-20 c20776"></div>
+              <div data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1" class="swiper-container dots-closer blog grid-view mb-6">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item-inner">
+                        <article>
+                          <div class="card">
+                            <figure class="card-img-top hover-scale"><a href="#"> <img src="img/b4.jpg" alt="" /></a></figure>
+                            <div class="card-body">
+                              <div class="post-header">
+                                <h2 class="post-title h3 mt-1 mb-3"><a href="./blog-post.html" class="link-dark">企业官网模板演示</a></h2>
+                              </div><!-- /.post-header -->
+                              <div class="post-content">
+                                <p>多样的选择，支持所有常见页面布局，支持响应式，支持源码导出</p>
+                              </div><!-- /.post-content -->
+                            </div>
+                            <!--/.card-body -->
+                            <div class="card-footer">
+                              <ul class="post-meta d-flex mb-0">
+                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+                                <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>网页模板</a></li>
+                              </ul><!-- /.post-meta -->
+                            </div><!-- /.card-footer -->
+                          </div><!-- /.card -->
+                        </article><!-- /article -->
+                      </div><!-- /.item-inner -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="swiper-slide">
+                      <div class="item-inner">
+                        <article>
+                          <div class="card">
+                            <figure class="card-img-top hover-scale"><a href="#"> <img src="img/b5.jpg" alt="" /></a></figure>
+                            <div class="card-body">
+                              <div class="post-header">
+                                <h2 class="post-title h3 mt-1 mb-3"><a href="./blog-post.html" class="link-dark">电商行业网站演示</a></h2>
+                              </div><!-- /.post-header -->
+                              <div class="post-content">
+                                <p>多样的选择，支持所有常见页面布局，支持响应式，支持源码导出</p>
+                              </div><!-- /.post-content -->
+                            </div>
+                            <!--/.card-body -->
+                            <div class="card-footer">
+                              <ul class="post-meta d-flex mb-0">
+                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+                                <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>网页模板</a></li>
+                              </ul><!-- /.post-meta -->
+                            </div><!-- /.card-footer -->
+                          </div><!-- /.card -->
+                        </article><!-- /article -->
+                      </div><!-- /.item-inner -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="swiper-slide">
+                      <div class="item-inner">
+                        <article>
+                          <div class="card">
+                            <figure class="card-img-top hover-scale"><a href="#"> <img src="img/b6.jpg" alt="" /></a></figure>
+                            <div class="card-body">
+                              <div class="post-header">
+                                <h2 class="post-title h3 mt-1 mb-3"><a href="./blog-post.html" class="link-dark">团队介绍网页演示</a></h2>
+                              </div><!-- /.post-header -->
+                              <div class="post-content">
+                                <p>多样的选择，支持所有常见页面布局，支持响应式，支持源码导出</p>
+                              </div><!-- /.post-content -->
+                            </div>
+                            <!--/.card-body -->
+                            <div class="card-footer">
+                              <ul class="post-meta d-flex mb-0">
+                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+                                <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>网页模板</a></li>
+                              </ul><!-- /.post-meta -->
+                            </div><!-- /.card-footer -->
+                          </div><!-- /.card -->
+                        </article><!-- /article -->
+                      </div><!-- /.item-inner -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div class="swiper-slide">
+                      <div class="item-inner">
+                        <article>
+                          <div class="card">
+                            <figure class="card-img-top hover-scale"><a href="#"> <img src="img/b7.jpg" alt="" /></a></figure>
+                            <div class="card-body">
+                              <div class="post-header">
+                                <h2 class="post-title h3 mt-1 mb-3"><a href="./blog-post.html" class="link-dark">个人简历网页模板演示</a></h2>
+                              </div><!-- /.post-header -->
+                              <div class="post-content">
+                                <p>多样的选择，支持所有常见页面布局，支持响应式，支持源码导出</p>
+                              </div><!-- /.post-content -->
+                            </div>
+                            <!--/.card-body -->
+                            <div class="card-footer">
+                              <ul class="post-meta d-flex mb-0">
+                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
+                                <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>网页模板</a></li>
+                              </ul><!-- /.post-meta -->
+                            </div><!-- /.card-footer -->
+                          </div><!-- /.card -->
+                        </article><!-- /article -->
+                      </div><!-- /.item-inner -->
+                    </div>
+                    <!--/.swiper-slide -->
+                  </div>
+                  <!--/.swiper-wrapper -->
+                </div>
+                <!--/.swiper -->
+              </div><!-- /.swiper-container -->
+            </div><!-- /.position-relative -->
+          </div><!-- /.container -->
+        </section><!-- /section -->
+        <section class="wrapper bg-light">
+          <div class="container py-14 py-md-17">
+            <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-18">
+              <div class="col-md-8 col-lg-6 position-relative"><a href="https://template-1253409072.cos.ap-guangzhou.myqcloud.com/sandbox/assets/media/movie.mp4" data-glightbox="" data-gallery="about" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute c22186"><i class="icn-caret-right"></i></a>
+                <div data-rellax-speed="0" id="ixnvro" class="shape rounded bg-soft-primary rellax d-md-block c22206"></div>
+                <figure class="rounded"><img src="img/about12.jpg" alt="" /></figure>
+              </div>
+              <!--/column -->
+              <div class="col-lg-5 offset-lg-1">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">操作步骤</h2>
+                <h3 class="display-4 mb-6">简单3步即可生成页面</h3>
+                <p class="mb-6">拖拽式编程，无需代码经验，基于页面模块自由组合，可视化编辑制作 HTML5网页，适合无编程经验用户、网页设计师</p>
+                <div class="row gy-3 gx-xl-8">
+                  <div class="col-xl-6">
+                    <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                      <li><span><i class="uil uil-check"></i></span><span>选择页面模板</span></li>
+                      <li class="mt-3"><span><i class="uil uil-check"></i></span><span>可视化编辑页面</span></li>
+                    </ul>
+                  </div>
+                  <!--/column -->
+                  <div class="col-xl-6">
+                    <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                      <li><span><i class="uil uil-check"></i></span><span>源码导出</span></li>
+                    </ul>
+                  </div>
+                  <!--/column -->
+                </div>
+                <!--/.row -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+            <div class="row mb-3">
+              <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">开发团队</h2>
+                <h3 class="display-4 mb-7 px-lg-19 px-xl-18">专业工程师并肩协作</h3>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+            <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0 mb-md-20">
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <div data-rellax-speed="0" id="iqs425" class="shape rounded bg-soft-primary rellax d-md-block c22644"></div>
+                  <div class="card">
+                    <figure class="card-img-top"><img src="img/t1.jpg" alt="" class="img-fluid" /></figure>
+                    <div class="card-body px-6 py-5">
+                      <h4 class="mb-1">Coriss Ambady</h4>
+                      <p class="mb-0">产品负责人</p>
+                    </div>
+                    <!--/.card-body -->
+                  </div><!-- /.card -->
+                </div><!-- /div -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <div data-rellax-speed="0" id="id9qhh" class="shape rounded bg-soft-primary rellax d-md-block c22786"></div>
+                  <div class="card">
+                    <figure class="card-img-top"><img src="img/t2.jpg" alt="" class="img-fluid" /></figure>
+                    <div class="card-body px-6 py-5">
+                      <h4 class="mb-1">Cory Zamora</h4>
+                      <p class="mb-0">用户体验负责人</p>
+                    </div>
+                    <!--/.card-body -->
+                  </div><!-- /.card -->
+                </div><!-- /div -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <div data-rellax-speed="0" id="i03na2" class="shape rounded bg-soft-primary rellax d-md-block c22928"></div>
+                  <div class="card">
+                    <figure class="card-img-top"><img src="img/t3.jpg" alt="" class="img-fluid" /></figure>
+                    <div class="card-body px-6 py-5">
+                      <h4 class="mb-1">Nikolas Brooten</h4>
+                      <p class="mb-0">产品架构负责人</p>
+                    </div>
+                    <!--/.card-body -->
+                  </div><!-- /.card -->
+                </div><!-- /div -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <div data-rellax-speed="0" id="igu47j" class="shape rounded bg-soft-primary rellax d-md-block c23070"></div>
+                  <div class="card">
+                    <figure class="card-img-top"><img src="img/t4.jpg" alt="" class="img-fluid" /></figure>
+                    <div class="card-body px-6 py-5">
+                      <h4 class="mb-1">Jackie Sanders</h4>
+                      <p class="mb-0">视觉负责人</p>
+                    </div>
+                    <!--/.card-body -->
+                  </div><!-- /.card -->
+                </div><!-- /div -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div><!-- /.container -->
+        </section><!-- /section -->
+        <section class="wrapper bg-gray">
+          <div class="container py-14 pt-md-0 pb-md-17">
+            <div class="row mt-md-n50p text-white text-center">
+              <div class="col-xl-10 mx-auto mb-14 mb-lg-n6">
+                <div data-image-src="img/bg2.jpg" class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400">
+                  <div class="card-body p-9 p-xl-12">
+                    <div class="row gx-0">
+                      <div class="col-xxl-9 mx-auto">
+                        <div data-margin="30" data-dots="true" class="swiper-container dots-light dots-closer mb-6">
+                          <div class="swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                  <p>“好用的一个在线工具，简单操作就可以导出页面！”</p>
+                                  <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                      <h5 class="mb-1 text-white">张芝山</h5>
+                                      <p class="mb-0">体验设计师</p>
+                                    </div>
+                                  </div>
+                                </blockquote>
+                              </div>
+                              <!--/.swiper-slide -->
+                              <div class="swiper-slide"><span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                  <p>“导出的源码可以直接用在项目里，标准的布局，放哪都好看！”</p>
+                                  <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                      <h5 class="mb-1 text-white">陈向东</h5>
+                                      <p class="mb-0">设计院在校生</p>
+                                    </div>
+                                  </div>
+                                </blockquote>
+                              </div>
+                              <!--/.swiper-slide -->
+                              <div class="swiper-slide"><span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                  <p>“用工具做活动页面真的很方便，关键还很多免费模板，没有功能限制！”</p>
+                                  <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                      <h5 class="mb-1 text-white">邱小红</h5>
+                                      <p class="mb-0">产品运营</p>
+                                    </div>
+                                  </div>
+                                </blockquote>
+                              </div>
+                              <!--/.swiper-slide -->
+                            </div>
+                            <!--/.swiper-wrapper -->
+                          </div>
+                          <!--/.swiper -->
+                        </div><!-- /.swiper-container -->
+                      </div><!-- /column -->
+                    </div><!-- /.row -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.card -->
+              </div><!-- /column -->
+            </div><!-- /.row -->
+            <div class="row text-center">
+              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <h2 class="fs-15 text-uppercase text-primary mb-3">价格演示</h2>
+                <h3 class="display-4 mb-10 px-xl-10">多梯度价格更多选择，无功能限制的免费版服务一样专业</h3>
+              </div><!-- /column -->
+            </div><!-- /.row -->
+            <div class="row">
+              <div class="col-xl-11 mx-auto">
+                <div class="pricing-wrapper position-relative mb-10 mb-md-14">
+                  <div data-rellax-speed="1" id="ifnwvd" class="shape bg-dot primary rellax w-16 h-18 c23824"></div>
+                  <div data-rellax-speed="1" id="ihophu" class="shape rounded-circle bg-line primary rellax w-18 h-18 d-none d-lg-block c23833"></div>
+                  <div class="pricing-switcher-wrapper switcher">
+                    <p class="mb-0 pe-3">包月</p>
+                    <div class="pricing-switchers">
+                      <div class="pricing-switcher pricing-switcher-active"></div>
+                      <div class="pricing-switcher"></div>
+                      <div class="switcher-button bg-primary"></div>
+                    </div>
+                    <p class="mb-0 ps-3">包年</p>
+                  </div>
+                  <div class="row gy-6 mt-3 mt-md-5">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="pricing card">
+                        <div class="card-body">
+                          <div class="prices text-dark">
+                            <div class="price price-show justify-content-start"><span class="price-currency">￥</span><span class="price-value">0</span> <span class="price-duration">mo</span></div>
+                            <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">￥</span><span class="price-value">0</span> <span class="price-duration">yr</span></div>
+                          </div>
+                          <!--/.prices -->
+                          <h4 class="card-title mt-2">免费版</h4>
+                          <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span>可视化编辑 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导出 </span></li>
+                            <li><i class="uil uil-check"></i><span>图片上传 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导入</span></li>
+                            <li><i class="uil uil-check"></i><span>云端存储</span></li>
+                            <li><i class="uil uil-multiply"></i><span>VIP页面模块</span></li>
+                            <li><i class="uil uil-multiply"></i><span>VIP页面模板</span></li>
+                          </ul><a href="https://htmlpage.cn/builder/" class="btn btn-primary rounded-pill">马上使用</a>
+                        </div>
+                        <!--/.card-body -->
+                      </div>
+                      <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4 popular">
+                      <div class="pricing card">
+                        <div class="card-body">
+                          <div class="prices text-dark">
+                            <div class="price price-show justify-content-start"><span class="price-currency">￥</span><span class="price-value">39.9</span> <span class="price-duration">mo</span></div>
+                            <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">￥</span><span class="price-value">399</span> <span class="price-duration">yr</span></div>
+                          </div>
+                          <!--/.prices -->
+                          <h4 class="card-title mt-2">高级会员</h4>
+                          <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span>可视化编辑 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导出 </span></li>
+                            <li><i class="uil uil-check"></i><span>图片上传 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导入</span></li>
+                            <li><i class="uil uil-check"></i><span>云端存储</span></li>
+                            <li><i class="uil uil-check"></i><span>VIP页面模块</span></li>
+                            <li><i class="uil uil-check"></i><span>VIP页面模板</span></li>
+                          </ul><a href="https://htmlpage.cn/builder/" class="btn btn-primary rounded-pill">马上升级</a>
+                        </div>
+                        <!--/.card-body -->
+                      </div>
+                      <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+                      <div class="pricing card">
+                        <div class="card-body">
+                          <div class="prices text-dark">
+                            <div class="price price-show justify-content-start"><span class="price-currency">￥</span><span class="price-value">389</span> <span class="price-duration">mo</span></div>
+                            <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">￥</span><span class="price-value">3890</span> <span class="price-duration">yr</span></div>
+                          </div>
+                          <!--/.prices -->
+                          <h4 class="card-title mt-2">定制会员</h4>
+                          <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span>可视化编辑 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导出 </span></li>
+                            <li><i class="uil uil-check"></i><span>图片上传 </span></li>
+                            <li><i class="uil uil-check"></i><span>源码导入</span></li>
+                            <li><i class="uil uil-check"></i><span>云端存储</span></li>
+                            <li><i class="uil uil-check"></i><span>VIP页面模块</span></li>
+                            <li><i class="uil uil-check"></i><span>VIP页面模板</span></li>
+                          </ul><a href="https://htmlpage.cn/builder/" class="btn btn-primary rounded-pill">马上升级</a>
+                        </div>
+                        <!--/.card-body -->
+                      </div>
+                      <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                  </div>
+                  <!--/.row -->
+                </div>
+                <!--/.pricing-wrapper -->
+                <div class="row gx-md-8 gx-xl-12 gy-10">
+                  <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                      <div><span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span></div>
+                      <div>
+                        <h4>如何导出页面？</h4>
+                        <p class="mb-0">点击网页构建器中的“导出代码”按钮，即可导出HTML/CSS源码</p>
+                      </div>
+                    </div>
+                  </div><!-- /column -->
+                  <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                      <div><span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span></div>
+                      <div>
+                        <h4>如何发布页面？</h4>
+                        <p class="mb-0">在发布之前请确保已购买云产商的服务器，点击这里可以查看如何购买云服务器</p>
+                      </div>
+                    </div>
+                  </div><!-- /column -->
+                  <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                      <div><span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span></div>
+                      <div>
+                        <h4>如何为按钮添加链接？</h4>
+                        <p class="mb-0">点击选中按钮，在右侧属性栏“href”字段中填入链接地址即可。设置“target”字段可以指定链接在当前窗口或新窗口打开</p>
+                      </div>
+                    </div>
+                  </div><!-- /column -->
+                  <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                      <div><span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span></div>
+                      <div>
+                        <h4>如何添加文本为链接？</h4>
+                        <p class="mb-0">双击文本进入编辑模式，选中文本点击文本上方的链接图标，在右侧属性栏“href”字段中填入链接地址即可</p>
+                      </div>
+                    </div>
+                  </div><!-- /column -->
+                </div><!-- /.row -->
+              </div><!-- /column -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </section><!-- /section -->
+      </div><!-- /.content-wrapper -->
+      <footer class="bg-navy text-inverse">
+        <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+          <div class="d-lg-flex flex-row align-items-lg-center">
+            <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">如遇到问题请与我们联系，感谢支持！</h3><a href="https://htmlpage.cn/contact" class="btn btn-primary rounded-pill mb-0 text-nowrap">我要留言</a>
+          </div>
+          <!--/div -->
+          <hr class="mt-11 mb-12" />
+          <div class="row gy-6 gy-lg-0">
+            <div class="col-md-4 col-lg-3">
+              <div class="widget"><img src="img/logo-small-white.svg" alt="" class="mb-4" />
+                <p class="mb-4">© 2022 Lapus. <br class="d-none d-lg-block" />All rights reserved.</p>
+                <nav class="nav social social-white"><a href="#"><i class="uil uil-twitter"></i></a><a href="#"><i class="uil uil-facebook-f"></i></a><a href="#"><i class="uil uil-dribbble"></i></a><a href="#"><i class="uil uil-instagram"></i></a><a href="#"><i class="uil uil-youtube"></i></a></nav><!-- /.social -->
+              </div><!-- /.widget -->
+            </div><!-- /column -->
+            <div class="col-md-4 col-lg-3">
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">联系我们</h4>
+                <address class="pe-xl-15 pe-xxl-17">中国·福建·厦门</address><a href="mailto:#">help@lapus.cn</a><br /> 13799264013
+              </div><!-- /.widget -->
+            </div><!-- /column -->
+            <div class="col-md-4 col-lg-3">
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">了解更多</h4>
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#">关于我们</a></li>
+                  <li><a href="#">解决方案</a></li>
+                  <li><a href="#">项目案例</a></li>
+                  <li><a href="#">隐私条款</a></li>
+                  <li><a href="#">相关法规</a></li>
+                </ul>
+              </div><!-- /.widget -->
+            </div><!-- /column -->
+            <div class="col-md-12 col-lg-3">
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">电子邮件</h4>
+                <p class="mb-5">您可以发送邮件到：<a href="mail:help@lapus.cn" class="hover">help@lapus.cn</a>联系我们！</p><!-- /.newsletter-wrapper -->
+              </div><!-- /.widget -->
+            </div><!-- /column -->
+          </div>
+          <!--/.row -->
+        </div><!-- /.container -->
+      </footer>
+      <script src="js/plugins.js"></script>
+      <script src="js/theme.js"></script>
+    </body>
+  </body>
+  <html>
